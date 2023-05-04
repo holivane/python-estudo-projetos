@@ -38,9 +38,9 @@ def jogar():
 
 
 def imprime_mensage_abertura():
-    print("***********************************************")
-    print("     Vamos jogar o jogo da Forca!!!")
-    print("***********************************************")
+    print("**********************************************************************")
+    print("                Vamos jogar o jogo da Forca!!!")
+    print("**********************************************************************")
 
 
 def carrega_palavra_secreta():
