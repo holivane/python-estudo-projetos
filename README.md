@@ -9,7 +9,7 @@ Lista dos projetos desenvolvidos:
       - Forca
       - Adivinhação
   -  OO
-  
+
 
 ## Jogos
 Projeto formado por três arquivos:
@@ -44,12 +44,14 @@ Se chutar uma letra errada a forca começa a ser preenchida:
 </div>
 
 Caso acerte a palavra você vence o jogo:
-
-![image](https://user-images.githubusercontent.com/37214904/236334526-9dd8ac30-e34c-411d-89e0-1d54626d2f0f.png)
+<div align="left">
+    <img src="https://user-images.githubusercontent.com/37214904/236334526-9dd8ac30-e34c-411d-89e0-1d54626d2f0f.png"/>
+</div>
 
 Do contrário acaba na forca =(
-
-![image](https://user-images.githubusercontent.com/37214904/236334861-999ab95e-ea80-4cf6-af0a-0987cc0b9c82.png)
+<div align="left">
+    <img src="https://user-images.githubusercontent.com/37214904/236334861-999ab95e-ea80-4cf6-af0a-0987cc0b9c82.png"/>
+</div>
 
 ### Adivinhação
 Pode ser escolhido dentro do menu de jogos, escolhendo a opção 1, ou rodando o comando  `python3 adivinhacao.py`
