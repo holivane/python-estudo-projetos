@@ -9,7 +9,14 @@ Lista dos projetos desenvolvidos:
       - Forca
       - Adivinhação
   -  OO
+        - Entendendo a Orientação a Objeto
+  -  OO2
+        - Avançando na Orientação a Objeto
+  - String em Python
+      - Extraindo informações da uma URL
 
+## Inicialização
+ Após fazer o git clone do projeto você só precisará ter instalado o python3 na sua máquina
 
 ## Jogos
 Projeto formado por três arquivos:
@@ -17,7 +24,7 @@ Projeto formado por três arquivos:
   - forca.py: Arquivo com jogo da Forca
   - adivinhacao.py: Arquivo com jogo de Adivinhação
 
-  ### Jogos
+### Jogos
 Funciona como um menu de jogos.
 
 Dentro da pasta jogos, ao rodar o comando `python3 jogos.py` será exibido um menu para selecionar entre os dois jogos:
@@ -56,8 +63,9 @@ Do contrário acaba na forca =(
 ### Adivinhação
 Pode ser escolhido dentro do menu de jogos, escolhendo a opção 1, ou rodando o comando  `python3 adivinhacao.py`
 
+ ## OO
 
- ## Inicialização
- Após fazer o git clone do projeto você só precisará ter instalado o python3 na sua máquina
+ ## OO2
 
+ ## String em Python
  ## Projeto em construção
