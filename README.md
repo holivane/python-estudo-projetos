@@ -1,10 +1,13 @@
-# Projetos em python
+# Projetos em python 🐍
 
 Neste repositório estão os projetos desenvolvidos durante a formação em Python da Alura.
 
+## Inicialização
+Após fazer o git clone do projeto você só precisará ter instalado o python3 na sua máquina
+
 Lista dos projetos desenvolvidos:
 
-  -  Jogos
+  -  Começando e avançando com a linguagem
       - Jogos
       - Forca
       - Adivinhação
@@ -15,10 +18,8 @@ Lista dos projetos desenvolvidos:
   - String em Python
       - Extraindo informações da uma URL
 
-## Inicialização
- Após fazer o git clone do projeto você só precisará ter instalado o python3 na sua máquina
-
-## Jogos
+##  Começando e avançando com a linguagem
+Nestes cursos apremdi sobre os recursos fundamentais do python3 na prática. 
 Projeto formado por três arquivos:
   - jogos.py: Arquivo principal onde é possível escolher entre o jogo da forca ou jogo de adivinhação
   - forca.py: Arquivo com jogo da Forca
@@ -63,9 +64,13 @@ Do contrário acaba na forca =(
 ### Adivinhação
 Pode ser escolhido dentro do menu de jogos, escolhendo a opção 1, ou rodando o comando  `python3 adivinhacao.py`
 
- ## OO
+## OO
+Neste projeto obtive uma ótima base sobre orientação a objeto com o Professor Nico
+Aprendi o paradigma OO com python3, apliquei com atributos, métodos e classes. Aprendi sobre propriedades, encapsulamento e coesão. além de entender quando deixar o médodo público.
 
- ## OO2
+## OO2
+Neste Curso Avancei mais na Orientação à objeto. Desenvolvi uma pequena playlist de programas onde pude aplicar classes abstratas e heranças, Mixin, extensão de classe e aprender um pouco mais sobre o modelo de dados do Python. Descobri o que é Duck Typing e para que serve.
 
- ## String em Python
- ## Projeto em construção
+## String em Python
+(Estudando)
+## Projeto em construção
