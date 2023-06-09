@@ -1,12 +1,12 @@
 url = "bytebank.com/cambio?quantidade=100&moedaOrigem=real&moedaDestino=dolar"
 list_parametros = ['quantidade', 'moedaOrigem', 'moedaDestino']
-print(url)
+print(f'Url: {url}')
 
 indice_interrogacao = url.find('?')
 url_base = url[:indice_interrogacao]
 url_parametros = url[indice_interrogacao+1:]
-print(url_base)
-print(url_parametros)
+print(f'Base da url: {url_base}')
+print(f'Parâmetros da url: {url_parametros}')
 
 for parametro in list_parametros:
   parametro_de_busca = parametro
@@ -18,4 +18,4 @@ for parametro in list_parametros:
   else:
       valor = url_parametros[indice_valor:indice_e_comercial]
 
-  print(valor)
+  print(f'{parametro}: {valor}')
