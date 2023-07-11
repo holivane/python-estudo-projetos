@@ -1,9 +1,11 @@
 import re
 
+VALOR_DOLAR = 5.50  # 1 dólar = 5.50 reais
 class ExtratorURL:
     def __init__(self, url) -> None:
         self.url = self.sanitiza_url(url)
         self.valida_url()
+        self.valor_convertido = self.converte_moeda()
 
     def sanitiza_url(self, url):
         if type(url) == str:
@@ -44,11 +46,20 @@ class ExtratorURL:
       return len(self.url)
 
     def __str__(self) -> str:
-      return self.url + "\n" + "Url base: " + self.get_url_base() + "\n" + "Url parâmetros: " + self.get_url_parametro()
+      return self.url + "\n" + "Url base: " + self.get_url_base() + "\n" + "Url parâmetros: " + self.get_url_parametro() + "\n" + "Valor convertido: " + self.valor_convertido
 
-url = "bytebank.com/cambio?quantidade=100&moedaOrigem=real&moedaDestino=dolar"
+    def converte_moeda(self, url):
+      moeda_origem = extrator_url.get_valor_parametro("moedaOrigem")
+      quantidade = extrator_url.get_valor_parametro("quantidade")
+      if moeda_origem == 'dolar':
+        valor_convertido = quantidade * VALOR_DOLAR
+      else:
+        valor_convertido = quantidade / VALOR_DOLAR
+      return valor_convertido
+
+url = "bytebank.com/cambio?quantidade=100&moedaOrigem=dolar&moedaDestino=real"
 extrator_url = ExtratorURL(url)
-valor = extrator_url.get_valor_parametro('quantidade')
-print(valor)
-print(len(extrator_url))
 print(extrator_url)
+
+
+...
