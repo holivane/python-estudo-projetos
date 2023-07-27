@@ -1,15 +1,13 @@
 from codigo.bytebank import Funcionario
 
+ana = Funcionario('Ana', '12/07/2000', 1000)
+maria = Funcionario('Maria', '12/07/2000', 10000)
+jorge = Funcionario('Jorge', '12/07/2000', 100000)
 
-def teste_idade():
-    funcionario_teste = Funcionario('Teste', '13/03/2000', 1200)
-    print(f'Teste = {funcionario_teste.idade()}')
+nomes = [ana, maria, jorge]
 
-    funcionario_teste1 = Funcionario('Teste', '13/03/1999', 1000)
-    print(f'Teste = {funcionario_teste1.idade()}')
-
-    funcionario_teste2 = Funcionario('Teste', '01/12/1988', 2000)
-    print(f'Teste = {funcionario_teste2.idade()}')
-
-
-teste_idade()
+for nome in nomes:
+    try:
+        print(('O bônus da {} é {}').format(nome.nome, nome.calcular_bonus()))
+    except Exception as e:
+        print(f'Erro ao clacular o bônus para {nome.nome}: {e}')
